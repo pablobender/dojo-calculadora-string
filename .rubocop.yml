@@ -1,0 +1,45 @@
+Lint/UselessAssignment:
+  Enabled: true
+
+# Configuration parameters: AllowURI, URISchemes.
+Metrics/LineLength:
+  Max: 91
+
+# Configuration parameters: CountComments.
+Metrics/MethodLength:
+  Max: 10
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/AndOr:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+# Configuration parameters: SupportedStyles.
+#Style/For:
+  #EnforcedStyle: for
+
+# Cop supports --auto-correct.
+# Configuration parameters: Width.
+Style/IndentationWidth:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/MethodDefParentheses:
+  Enabled: true
+
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/MethodName:
+  Enabled: true
+
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/TrailingBlankLines:
+  Enabled: true
+
+# Cop supports --auto-correct.
+Style/TrailingWhitespace:
+  Enabled: true
