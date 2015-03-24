@@ -24,6 +24,6 @@ describe CalculadoraString do
     expect { subject.somar('2e2') }.to throw_symbol(:entrada_invalida)
   end
   it 'deve somar 1\n2,3' do
-    expect(subject.somar("1\n2,3")).to eq(6)
+    expect(subject.somar("1\n2,3")).to eq(7)
   end
 end
