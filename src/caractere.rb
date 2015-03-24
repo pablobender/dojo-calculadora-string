@@ -1,5 +1,4 @@
 # encoding utf-8
-
 class Caractere
   def initialize(caractere)
     @caractere = caractere
