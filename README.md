@@ -1,5 +1,5 @@
-<img src="https://codeship.com/projects/943fd880-b3fc-0132-f772-2aa0bd32b09d/status?branch=master" alt="Codeship Status">
-[![Coverage Status](https://coveralls.io/repos/pablobender/dojo-calculadora-string/badge.svg)](https://coveralls.io/r/pablobender/dojo-calculadora-string)
+<img src="https://img.shields.io/codeship/943fd880-b3fc-0132-f772-2aa0bd32b09d/master.svg" alt="Codeship Status">
+<img src="https://img.shields.io/coveralls/pablobender/dojo-calculadora-string/master.svg" alt="Coverall Status">
 
 # Calculadora String
 
