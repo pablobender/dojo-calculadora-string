@@ -3,16 +3,12 @@ class Caractere
     @caractere = caractere
   end
 
-  def caractere_valido
-    ('0'..'9').include? @caractere
+  def valido
+    ('0'..'9').include?(@caractere)
   end
 
-  def eh_delimitador(delimitador)
+  def requer_parametro(delimitador)
     [delimitador, "\n"].include? @caractere
-  end
-
-  def eh_zero
-    @caractere == '0'
   end
 
   def to_i
